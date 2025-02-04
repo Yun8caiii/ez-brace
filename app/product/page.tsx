@@ -16,8 +16,8 @@ export default function Product() {
     <div className="bg-gray-100 min-h-screen flex flex-col">
       <Navbar />
       <div className="flex flex-col items-center justify-center flex-grow p-8">
-        <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 w-full max-w-5xl">
-          <div className="w-full md:w-1/2 hidden md:block">
+        <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8 w-full max-w-5xl">
+          <div className="w-full lg:w-1/2 hidden lg:block">
             <Image
               src="/ezbrace-product.png"
               alt="EZ-Brace Product"
@@ -26,7 +26,7 @@ export default function Product() {
               className="rounded-lg shadow-md"
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full lg:w-1/2">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">EZ-Brace Product</h1>
             <p className="text-lg text-gray-700 mb-2">SKU: EZB-101</p>
             <p className="text-lg text-gray-700 mb-2">Price: $24.99</p>

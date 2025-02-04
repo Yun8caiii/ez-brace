@@ -37,11 +37,11 @@ export default function Navbar() {
         </div>
       </div>
       <ul
-        className={`flex-col lg:flex-row lg:flex space-x-6 text-gray-700 font-medium ${
-          isMenuOpen ? "flex" : "hidden"
-        } lg:space-x-6 lg:mr-48`}
+        className={`flex-col lg:flex-row lg:flex space-x-6 text-gray-700 font-medium transition-transform duration-300 ease-in-out transform ${
+          isMenuOpen ? "block" : "hidden"
+        } lg:block lg:space-x-6 lg:mr-48 mt-4 lg:mt-0`}
       >
-        <li>
+        <li className="ml-6 lg:ml-0">
           <Link href="/" className="hover:text-blue-500 transition">
             Home
           </Link>

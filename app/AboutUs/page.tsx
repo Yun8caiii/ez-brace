@@ -23,10 +23,10 @@ export default function AboutUs() {
               Ceiling Fan Man has over 20 years of experience in the industry. He has installed and repaired countless ceiling fans, ensuring that each one operates smoothly and safely. His expertise and dedication to quality workmanship have earned him a reputation as one of the best in the business.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Throughout his career, Ceiling Fan Man has always prioritized customer satisfaction. He takes the time to understand each client's needs and provides personalized solutions that meet their specific requirements. His attention to detail and commitment to excellence are evident in every project he undertakes.
+              Throughout his career, Ceiling Fan Man has always prioritized customer satisfaction. He takes the time to understand each client&apos;s needs and provides personalized solutions that meet their specific requirements. His attention to detail and commitment to excellence are evident in every project he undertakes.
             </p>
             <p className="text-lg text-gray-700">
-              When he's not working, Ceiling Fan Man enjoys sharing his knowledge with others through workshops and online tutorials. He is passionate about helping people learn how to properly install and maintain their ceiling fans, ensuring that they can enjoy the benefits of a well-functioning fan for years to come.
+              When he&apos;s not working, Ceiling Fan Man enjoys sharing his knowledge with others through workshops and online tutorials. He is passionate about helping people learn how to properly install and maintain their ceiling fans, ensuring that they can enjoy the benefits of a well-functioning fan for years to come.
             </p>
           </div>
         </div>

@@ -14,24 +14,29 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="/product" className="hover:text-blue-500 transition">
+          <Link href="/product" className="hover:text-blue-500 transition">
             Product
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/AboutUs" className="hover:text-blue-500 transition">
+          <Link href="/AboutUs" className="hover:text-blue-500 transition">
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/contact" className="hover:text-blue-500 transition">
+          <Link href="/contact" className="hover:text-blue-500 transition">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
-      <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
+      <a
+        href="https://buy.stripe.com/14kaH835ZaM45u83ce"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+      >
         Buy Now
-      </button>
+      </a>
     </nav>
   );
 }

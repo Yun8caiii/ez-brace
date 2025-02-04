@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import Footer from "@/components/Footer";
@@ -23,28 +23,35 @@ export default function Home() {
           className="relative bg-white shadow-md py-48 px-8 text-center bg-cover bg-top min-h-[660px] rounded-lg m-6"
           style={{ backgroundImage: "url('/ezbrace-bg-image.png')" }}
         >
-          <h1 className="absolute top-[170px] left-14 text-6xl font-bold text-slate-950">
+          <h1 className="absolute top-[220px] left-8 md:top-[170px] md:left-14 text-4xl md:text-6xl font-bold text-slate-950">
             Secure.
           </h1>
-          <h1 className="absolute top-[220px] left-14 text-6xl font-bold text-slate-950">
+          <h1 className="absolute top-[270px] left-8 md:top-[220px] md:left-14 text-4xl md:text-6xl font-bold text-slate-950">
             Simple. Strong.
           </h1>
-          <p className="absolute top-[280px] left-14 text-gray-900 mt-2">
+          <p className="absolute top-[330px] left-8 md:top-[280px] md:left-14 text-lg md:text-xl text-gray-900 mt-2">
             The ultimate support system for your fixtures.
           </p>
-          <p className="absolute top-[330px] left-14 text-2xl font-bold text-indigo-950 mt-4">
+          <p className="absolute top-[380px] left-8 md:top-[330px] md:left-14 text-xl md:text-2xl font-bold text-indigo-950 mt-4">
             Starting at $24.99
           </p>
-          <button className="bg-indigo-800 text-white px-6 py-2 rounded-md mt-4 hover:bg-indigo-950 transition absolute top-[380px] left-14">
+          <a
+            href="https://buy.stripe.com/14kaH835ZaM45u83ce"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-indigo-800 text-white px-6 py-2 rounded-md mt-4 hover:bg-indigo-950 transition absolute top-[430px] left-8 md:top-[380px] md:left-14"
+          >
             Buy Now
-          </button>
-          <Image
-            src="/ezbrace-product.png"
-            alt="EZ-Brace Product"
-            width={325}
-            height={350}
-            className="absolute top-8 right-[136px] mt-6 mr-6 border-4 border-gray-300 rounded-lg bg-white"
-          />
+          </a>
+          <div className="w-full lg:w-1/2 hidden lg:block">
+            <Image
+              src="/ezbrace-product.png"
+              alt="EZ-Brace Product"
+              width={325}
+              height={350}
+              className="absolute top-8 right-[136px] mt-6 mr-6 border-4 border-gray-300 rounded-lg bg-white"
+            />
+          </div>
         </header>
 
         {/* Product Showcase */}
@@ -99,8 +106,8 @@ export default function Home() {
             </p>
           </div>
         </section>
-         {/* New Section */}
-         <section className="flex flex-col items-center gap-12 p-8 bg-white">
+        {/* New Section */}
+        <section className="flex flex-col items-center gap-12 p-8 bg-white">
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-5xl">
             <div className="w-full md:w-1/2">
               <Image
@@ -112,18 +119,27 @@ export default function Home() {
               />
             </div>
             <div className="w-full md:w-1/2">
-              <h2 className="text-4xl font-bold text-gray-800 mb-4">New Feature</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-4">
+                New Feature
+              </h2>
               <p className="text-gray-600 text-lg mb-4">
-                Discover the latest feature of the EZ-Brace101. This new addition enhances the functionality and usability of the product, making it even more versatile and reliable.
+                Discover the latest feature of the EZ-Brace101. This new
+                addition enhances the functionality and usability of the
+                product, making it even more versatile and reliable.
               </p>
               <p className="text-gray-600 text-lg">
-                With this new feature, you can achieve better results with less effort. It&apos;s designed to provide maximum efficiency and convenience, ensuring that you get the best performance every time.
+                With this new feature, you can achieve better results with less
+                effort. It&apos;s designed to provide maximum efficiency and
+                convenience, ensuring that you get the best performance every
+                time.
               </p>
             </div>
           </div>
         </section>
         <section className="flex flex-col items-center gap-2 mb-4">
-          <h2 className="text-4xl font-bold text-gray-800 mb-8">Product Showcase</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-8">
+            Product Showcase
+          </h2>
           <Carousel
             className="w-full max-w-5xl"
             plugins={[

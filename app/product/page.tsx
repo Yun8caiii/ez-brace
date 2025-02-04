@@ -7,8 +7,8 @@ import Navbar from '@/components/Navbar';
 export default function Product() {
   const [quantity, setQuantity] = useState(1);
 
-  const handleQuantityChange = (e) => {
-    setQuantity(e.target.value);
+  const handleQuantityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setQuantity(Number(e.target.value));
   };
 
   const handleCheckout = () => {

@@ -14,7 +14,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#product" className="hover:text-blue-500 transition">
+          <a href="/product" className="hover:text-blue-500 transition">
             Product
           </a>
         </li>

@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 w-full">
                   <div className="w-full md:w-1/2">
                     <Image
-                      src="/durability-brace.png"
+                      src="/durability-brace.jpg"
                       alt="Durability"
                       width={400}
                       height={400}
@@ -161,7 +161,7 @@ export default function Home() {
                 <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row-reverse items-center md:items-start justify-center gap-8 w-full">
                   <div className="w-full md:w-1/2">
                     <Image
-                      src="/ez-brace1st.png"
+                      src="/ez-brace1st.jpg"
                       alt="Easy Installation"
                       width={400}
                       height={400}
@@ -185,7 +185,7 @@ export default function Home() {
                 <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 w-full">
                   <div className="w-full md:w-1/2">
                     <Image
-                      src="/cost-effective.png"
+                      src="/cost-effective.jpg"
                       alt="Cost-Effective"
                       width={400}
                       height={400}

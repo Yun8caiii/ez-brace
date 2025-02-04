@@ -17,7 +17,7 @@ export default function Product() {
       <Navbar />
       <div className="flex flex-col items-center justify-center flex-grow p-8">
         <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 w-full max-w-5xl">
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 hidden md:block">
             <Image
               src="/ezbrace-product.png"
               alt="EZ-Brace Product"
